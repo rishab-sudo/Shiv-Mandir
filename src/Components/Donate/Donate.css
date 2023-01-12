@@ -1,0 +1,214 @@
+#Donate{
+  margin-top: 4rem;
+}
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+#containerr{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+  padding-bottom: 5rem;
+  margin-top: -32px;
+  margin-bottom: 1rem;
+    background: #ad4956;
+    color: #fff;
+    height: auto;
+   min-width: 200px;
+    transition: all 0.5s;
+}
+    
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:0px 0px;
+}
+.link{
+ 
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:rgba(165, 42, 42, 0.523);
+    color: white;
+    transition: all 0.5s;
+}
+.activee{
+    background:#ad4956;
+    color: white;
+}
+
+.iconn, .link_textt{
+    font-size: 17px;
+}
+
+/* Donate-page-top-header-css */
+.top_header{
+  width: auto;
+  height: 6rem;
+  background-color: #ad4956;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.top_header_heading{
+  margin-left: 25px;
+ color: #fff;
+  padding-top: 25px;
+}
+@media screen and (max-width: 480px) {
+  .top_header_heading{
+ font-size: 1.5rem;
+  }
+  }
+  .arrow_icon{
+    font-size: 1.5rem;
+    color: #fff;
+ margin-top: 37px;
+  }
+  @media screen and (max-width: 480px) {
+  .arrow_icon{
+margin-top: 30.5px;
+  }
+}
+@media screen and (max-width: 480px) {
+.crousel_col{
+display: none;
+}
+}
+
+.cartIcon{
+  margin-top: -5px;
+  margin-right: 5px;
+    height: 45px;
+    width: 45px;
+    color:rgba(240, 248, 255, 0.61)
+  }
+  @media screen and (max-width: 480px) {
+    .cartIcon{
+      margin-top: 0px;
+    height: 30px;
+    width: 30px;
+    }
+    }
+.donate_card_div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-left: 1.5%;
+  }
+  @media screen and (max-width: 480px) {
+  .donate_card_div{
+    display: flex;
+  flex-direction: column;
+  }
+}
+  #donate_card{
+   background-color: #ad4956;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   margin-inline-end: 106px;
+    
+  }
+  /* Patron page css */
+  #cardImg{
+    height: 250px;
+  }
+
+#crousel_img{
+  width: 95%;
+}
+.donate_crousel{
+  height: 95%;
+  width: 100%;
+  margin-top: -15px;
+  
+}
+
+.patron-header{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #ad4956;
+  height: 3.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+margin-left: 10%;
+  text-align: start;
+}
+@media screen and (max-width: 480px) {
+  .patron-header {
+ min-width: 100vw;
+}
+}
+@media screen and (max-width: 760px) {
+  .patron-header {
+    min-width: 95vw;
+    margin-left:1.5rem;
+
+    }
+}
+/* General-donate-page-css */
+
+.General-header{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #ad4956;
+  height: 3.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+margin-left: 10%;
+  text-align: start;
+}
+@media screen and (max-width: 480px) {
+  .General-header {
+ min-width: 100vw;
+}
+}
+@media screen and (max-width: 760px) {
+  .General-header {
+    min-width: 95vw;
+    margin-left:1.5rem;
+
+    }
+}
+.card-1{
+  margin-left: 2.1rem;
+}
+/* Prashad-page-css */
+.Prashad-header{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #ad4956;
+  height: 3.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+margin-left: 10%;
+  text-align: start;
+}
+@media screen and (max-width: 480px) {
+  .Prashad-header {
+ min-width: 100vw;
+}
+}
+@media screen and (max-width: 760px) {
+  .Prashad-header {
+    min-width: 95vw;
+    margin-left:1.5rem;
+
+    }
+}

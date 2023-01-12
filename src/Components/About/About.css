@@ -1,0 +1,157 @@
+#About{
+  margin-top: 6.2rem;
+  
+}
+.img1{
+    height: auto;
+    padding: 5px;
+
+} 
+.card-header{
+  text-align: center;
+ font-weight: bolder;
+  background-color: lightgrey;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+  
+/* icons */
+.icon{
+  padding: 2px;
+  text-align: center;
+  width: auto;
+}
+ 
+.social_container {
+margin-top: 0;
+height: auto;
+
+}
+a.social {
+  margin: .5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: maroon;
+}
+a.whatsapp{
+  color: darkgreen;
+}
+a.email{
+  color: brown;
+}
+.text{
+  text-align: justify;
+  padding: 5px;
+}
+
+/* followus  */
+ .MainText{ 
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-size: x-large;
+  color: #ad4956;
+}
+.h3{
+  text-align: center;
+  color: #ad4956;
+  text-decoration: underline;
+  }
+/* card-tyming */
+.tyming{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+/* readmore-text */
+.readMoreText{
+  color: darkgray;
+}
+.darshan_btn{
+  background-color: #ad4956e6;
+  color: white;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+.arti_btn{
+  margin-top: -15px;
+  background-color: #ad4956e6;
+  color: white;
+  width: auto;
+  outline: brown;
+  font-size: large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Daily Page  */
+.Daily{
+ margin-top: 70px;
+ text-align: center;
+ 
+}
+#donate-header{
+  text-align: center;
+  height: 3rem;
+  width: auto;
+  background-color: #ad4956e6;
+  margin-bottom: .1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+}
+.fa-solid {
+  float: left;
+  margin-top: .5rem;
+  margin-left: .5rem;
+color: floralwhite;
+ }
+
+.artitext{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-overflow: clip;
+  border: none;
+  color: aliceblue;
+  background-color: #ad4956;
+ text-decoration: wavy;
+}
+.daily_artibtn{
+  background-color: #ad4956e6;
+  color: white;
+  width: auto;
+  outline: brown;
+  font-size: large;
+ border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+ 
+  
+
+
+
+

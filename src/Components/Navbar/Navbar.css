@@ -1,0 +1,24 @@
+.navbar-nav a{
+    font-size: 18px;
+
+}
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fa-gift{
+
+float: left;
+text-align: center;
+}
+@media screen and (max-width: 480px) {
+    #navbar {
+    width: 100vw;
+  
+      }
+  }
+  @media screen and (max-width: 1000px) {
+    #navbar {
+    min-width: 99vw;
+  
+      }
+  }
