@@ -1,24 +1,27 @@
+#navbar{
+    background-color: #ad4956e6;
+}
+.nav_container{
+    padding: 0px 50px 0px 50px;
+}
 .navbar-nav a{
     font-size: 18px;
-
+    color: aliceblue;
+    margin-inline-end: 20px;
+}
+#link{
+ color: aliceblue;
+ font-family: internal;
 }
 .navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fa-gift{
-
 float: left;
 text-align: center;
 }
-@media screen and (max-width: 480px) {
-    #navbar {
-    width: 100vw;
-  
-      }
-  }
-  @media screen and (max-width: 1000px) {
-    #navbar {
-    min-width: 99vw;
-  
-      }
+.right_btn{
+    font-family: internal;
+    color: aliceblue;
+    border: solid 1px aliceblue;
   }

@@ -9,10 +9,12 @@ import img5 from "../../../src/Images/img5.jpg"
 import { useNavigate } from "react-router-dom";
 import MovingText from 'react-moving-text'
 import {BsArrowLeftSquare}from "react-icons/bs";
+import SubHeader from '../../SubHeader';
 import "./About.css"
 
 
 const Daily = () => {
+  
   const navigate = useNavigate();
   const goToAbout = () => {
     navigate("/")
@@ -25,48 +27,49 @@ const Daily = () => {
     <>
       {/* <Button id="B-btn"variant="dark" onClick={()=>goToAbout()}>Back</Button> */}
       <Container className="Daily">
-        <Button onClick={goToAbout} style={{ background: "White", width: "97%", border: "0px", marginTop: "2px",marginLeft:"15px" }}>
-          <header className='donate-header'style={{display:"flex"}}>
-            <BsArrowLeftSquare style={{paddingTop:"15px",marginLeft:"5px",height:"35px"}}/>
-            <MovingText
-            style={{textAlign:"",paddingLeft:"37%"}}
-              type="flash"
-              duration="11000ms"
-              delay="5s"
-              iteration="infinite"
-              fillMode="none">
-              TODAY'S DARSHAN
-            </MovingText>
+          
+       <div style={{marginTop:"2rem"}}>
 
-          </header>
-        </Button>
+          <SubHeader />
+       </div>
+        
         <Row>
           {/* for upwords images */}
-          <Col sm={8}>
+          <Col lg={9} sm={12} style={{display:"grid",justifyContent:'center',alignItems:"center"}}>
             <Figure>
-              <Figure.Image id="img"
-                width={171}
-                height={150}
+              <Figure.Image className='img-fluid daily_img'
                 alt="171x180"
                 src={img}
               />
-              <Figure.Caption>
-                <h1 className="artitext">Live Artri</h1>
-
+              <div>
+               <Button className='daily_artibtn' onClick={gotodonate}>ARTI-SEVA</Button>
+              
+              <Figure.Caption className='daily_caption '>
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
                 Nulla vitae elit libero, a pharetra augue mollis interdum.
-
-
-              </Figure.Caption>
+             </Figure.Caption>
+             
+            </div>
             </Figure>
-            <Button className='daily_artibtn' onClick={gotodonate}>ARTI-SEVA</Button>
           </Col>
 
-          <Col sm={4}>
+          <Col lg={3}sm={12}>
+            <Figure>
+              <Figure.Image
+                width={171}
+                height={180}
+                alt="171x180"
+                src={img1}
+              />
+              <Figure.Caption>
+                Nulla vitae elit libero, a pharetra augue mollis interdum.
+              </Figure.Caption>
+            </Figure>
+              
             <Figure>
               <Figure.Image
                 width={171}
@@ -79,7 +82,6 @@ const Daily = () => {
               </Figure.Caption>
             </Figure>
 
-            <Col sm={12}>
               <Figure>
                 <Figure.Image
                   width={171}
@@ -92,12 +94,12 @@ const Daily = () => {
                 </Figure.Caption>
               </Figure>
             </Col>
-          </Col>
+         
         </Row>
 
         {/* for downwards images */}
         <Row>
-          <Col sm>
+          <Col lg={4}>
             <Figure>
               <Figure.Image
                 width={171}
@@ -111,7 +113,7 @@ const Daily = () => {
             </Figure>
           </Col>
 
-          <Col sm>
+          <Col lg={4}>
             <Figure>
               <Figure.Image
                 width={171}
@@ -124,7 +126,7 @@ const Daily = () => {
               </Figure.Caption>
             </Figure>
           </Col>
-          <Col sm>
+          <Col lg={4}>
             <Figure>
               <Figure.Image
                 width={171}

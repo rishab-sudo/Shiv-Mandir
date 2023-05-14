@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
 
               <MDBCol md='5' start='12'>
-                <MDBInput contrast type='email' label='Email address' className='mb-4' />
+                <MDBInput contrast type='email' placeholder='Email address' className='mb-4' />
               </MDBCol>
 
               <div className='col-auto'>
@@ -56,25 +56,25 @@ export default function Footer() {
           </form>
         </section>
 
-        <section className='mb-4'>
+        {/* <section className='mb-4'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
             sequi voluptate quas.
           </p>
-        </section>
+        </section> */}
 
         <section className=''>
           <MDBRow>
             <MDBCol lg='4' md='4' className='mb-4 mb-md-0'>
-              <h5>Location</h5>
+              <h5 className='text-uppercase'>location</h5>
 
               <iframe width="130" height="130" id="gmap_canvas"
                 src="https://maps.google.com/maps?q=baheri%20shekhupur&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </MDBCol>
 
-            <MDBCol lg='4' md='4' className='mb-4 mb-md-0' >
+            <MDBCol lg='4' md='4' className='mb-4 mb-md-0 ' >
               <h5 className='text-uppercase'>Quick Links</h5>
 
               <ul className='list-unstyled mb-0'>
@@ -129,7 +129,7 @@ export default function Footer() {
       </MDBContainer>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+        © 2020-2023 Copyright:
         <a className='text-white' id="quicklinks" href='https://mdbootstrap.com/'>
           ShivMandir.com
         </a>

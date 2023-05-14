@@ -23,12 +23,12 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/General",
-            name:"General Donation",
+            name:"General Seva",
             icon:<FaGift/>
         },
         {
             path:"/FestivalDonation",
-            name:"Festival Donation",
+            name:"Festival Seva",
             icon:<FaGift/>
         },
         {

@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
+import {Container,Row,Col} from "react-bootstrap"
 import Categories from './Categories'
 import items from "./Sdata"
+import Cards from "../Cards/Cards"
+import CardData from "../Cards/CardData" 
 import "./Event.css"
 
 
@@ -22,14 +25,25 @@ function Event() {
 
   return (
     <section className="menu section" id="Event">
-      <main id="Event">
+      <main >
         <div className="title">
-          <h2 >Our Fastivals...</h2>
+          <h2 >Our Festivals...</h2>
           <div className="underline"></div>
         </div>
-        <Categories categories={categories} filterItems={filterItems} />
-
+<Container fluid>
+    <Categories categories={categories} filterItems={filterItems} />
+  <Row>
+    <Col lg={8} md={6} xs={12} style={{display:"grid",justifyContent:"start"}}>
         <Menu items={menuItems} />
+    </Col>
+    <Col lg={4} md={6} xs={12} style={{display:"grid",justifyContent:"end"}}>
+    <Cards img={CardData[2].img}  title={CardData[2].title} text={CardData[2].text} btn={CardData[2].btn}/>
+<Cards img={CardData[2].img}  title={CardData[2].title} text={CardData[2].text}  btn={CardData[2].btn}/>
+<Cards img={CardData[2].img}  title={CardData[2].title} text={CardData[2].text} btn={CardData[2].btn}/>
+    </Col>
+  </Row>
+</Container>
+      
 
       </main>
     </section>

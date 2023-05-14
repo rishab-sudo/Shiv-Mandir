@@ -1,62 +1,62 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import home2 from "../../Images/Hnew.jpg"
+import { useNavigate,Link } from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel';
+import home2 from "../../Images/TempleHome.jpg"
+import btn from "../../Images/donate_btn.png"
 import "./Home.css"
 
 
 const Crousel = () => {
+  const navigate = useNavigate();
+  const goToDonate = () => {
+    navigate("/Donate")
+  };
   return (
-    <div id="carouselExampleCaptions" className="donatecarousel" data-bs-ride="carousel" >
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src={home2} className="d-block crouselImg img-fluid" alt={home2}/>
-        <div class="carousel-caption d-none d-md-block">
-        <div className="btn_div">
-           <button style={{borderRadius:"15px",height:"50px",width:"150px",border:"none",fontSize:"1.5rem",fontWeight:"bold",color:"white",backgroundColor:"brown"}}>Sponsor</button>
-           </div>
-          <h3>First slide label</h3>
-          <h4 style={{color:"white"}}>Some representative placeholder content for the first slide.</h4>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src={home2} class="d-block crouselImg img-fluid"  alt={home2}  />
-        <div class="carousel-caption d-none d-md-block">
-        <div className="btn_div">
-           <button style={{borderRadius:"15px",height:"50px",width:"150px",border:"none",fontSize:"1.5rem",fontWeight:"bold",color:"white",backgroundColor:"brown"}}>Sponsor</button>
-           </div>
-        <h3>First slide label</h3>
-          <h4 style={{color:"white"}}>Some representative placeholder content for the first slide.</h4>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src={home2} class="d-block crouselImg img-fluid"  alt={home2}  />
-        <div class="carousel-caption d-none d-md-block">
-        <div className='btn_div'>
-           <button style={{borderRadius:"15px",height:"50px",width:"150px",border:"none",fontSize:"1.5rem",fontWeight:"bold",color:"white",backgroundColor:"brown"}}>Sponsor</button>
-           </div>
-        <h3>First slide label</h3>
-          <h4 style={{color:"white"}}>Some representative placeholder content for the first slide.</h4>
-        </div>
-      </div>
-    </div>
-    <div>
+    <>
+<Carousel>
+      <Carousel.Item interval={500} style={{width:"100%"}}>
+        <img
+          className="d-block w-100 img-fluid crouselImg"
+          src={require("../../Images/TempleHome.jpg")} 
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h4>First slide label</h4>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button className="sponsor_Btn"onClick={goToDonate}>Sponsor</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+      <Carousel.Item interval={500}>
+        <img
+          className="d-block w-100 img-fluid  crouselImg"
+          src={require("../../Images/TempleHome.jpg")} 
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h4>Second slide label</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button className="sponsor_Btn"onClick={goToDonate}>Sponsor</button>
+        </Carousel.Caption>
+      </Carousel.Item>
      
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 img-fluid  crouselImg"
+          src={require("../../Images/TempleHome.jpg")} 
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h4>Third slide label</h4>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+          <button className="sponsor_Btn"onClick={goToDonate}>Sponsor</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
+  </>
 
   )
 }

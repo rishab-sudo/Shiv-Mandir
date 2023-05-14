@@ -63,13 +63,7 @@ const menu = [
       img:  "../../Images/About2.jpg",
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
-    // {
-    //   id: 9,
-    //   title: 'Upside Down Cake',
-    //   category: 'Program',
-    //   price: 16.99,
-    //   img: './images/item-9.jpg',
-    //   desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
-    // },
+
+  
   ];
   export default menu; 

@@ -6,6 +6,8 @@ import InputControl from "../Login/InputControl";
 // import { setActiveUser,setUserLogOutState,selectUserEmail,selectUserName } from "../../redux/userSlice";
 import { auth } from "../../firebase";
 import styles from "./Login.module.css";
+import login22 from"../../Images/login22.jpg"
+import About1 from"../../Images/About1.jpg"
 
 function Login() {
 //   const dispatch=useDispatch()
@@ -54,11 +56,17 @@ function Login() {
       });
   };
   return (
-    <section id="login" className="bg-img">
+    <div     style={{ backgroundImage: `url(${login22})`,
+    backgroundRepeat:"no-repeat",
+    backgroundPosition:"cover",
+    height:'100vh',
+    minWidth:"100vw",
+    }}>
+    <section id="Login" className="" >
+
       <div className={styles.Logincontainer} >
         <div className={styles.innerBox}>
           <h1 className={styles.heading}>Login..</h1>
-
           <InputControl
             label="Email"
             type="email"
@@ -91,6 +99,7 @@ function Login() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

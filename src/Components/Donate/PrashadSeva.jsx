@@ -7,6 +7,7 @@ import Bhog from "../../Images/56Bhog.jpg"
 import tulsiArchana from "../../Images/tulsiArchana.jpg"
 import Header from "./Header"
 import "./Donate.css"
+import SubHeader from "../../SubHeader"
 
 const Prashad = () => {
   return (
@@ -14,13 +15,10 @@ const Prashad = () => {
        <div className='Prashad_header' style={{marginTop:"4rem"}}>
     <Header/>
     </div>
-    <div className="Prashad-header">
-     <p style={{color:"white",paddingTop:"15px",paddingLeft:"1rem",fontSize:"1.5rem",fontWeight:"bold"}}>
-      Prashad Seva
-      </p>
-     </div>
-
-<div className="Prashad_Donation_container" style={{marginTop:"5rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
+    <div>
+      <SubHeader/>
+    </div>
+ <div className="Prashad_Donation_container" style={{marginTop:"5rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
    <div className="row align-items-center">
    
    <div class="col">

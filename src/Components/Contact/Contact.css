@@ -1,5 +1,7 @@
-#Contact{
+#Contact {
   margin-top: 4.2rem;
+  padding: 15px;
+  width: auto;
 }
 
 .contact-leftside img {
@@ -23,7 +25,8 @@
   font-weight: lighter;
   margin-bottom: 7px;
 }
-#message{
+
+#message {
   height: 5rem;
 }
 
@@ -35,101 +38,96 @@
 .form-checkbox-style {
   margin: 1rem 0;
   text-decoration: black;
-  
-
 }
 
 .contact-rightside form .main-hero-para {
   font-size: 1.0rem;
   color: var(--text-color);
- margin-left: 15px;
-margin-top: -50px;
+  margin-left: 15px;
+  margin-top: -50px;
   font-weight: lighter;
   width: auto;
   padding: .5rem;
   text-align: left;
 }
-@media screen and (max-width: 600px) {
-  .contact-rightside form .main-hero-para {
-    font-size: 14px;
-    
-  }
-}
-.video{
+
+.video {
   width: 85%;
   margin-bottom: 20px;
   height: auto;
 }
-@media screen and (max-width: 480px) {
-  .video{
-width: 100%;
-  }
+
+#submit {
+  margin-top: -0.7rem;
+  margin-bottom: 2rem;
+  background-color: #ad4956;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
 }
-#submit{
- margin-top: -0.7rem;
- margin-bottom: 2rem;
-background-color: rgb(169, 169, 169);
-color: #fff;
-border-radius: 5px;
-font-weight: bold;
-font-size: 1.2rem;
-border: none;
+
+#submit:hover {
+  background-color: #ad4956ef;
 }
-#submit:hover{
-  background-color:  gray;
-}
-.icons{
+
+.icons {
   text-align: justify;
-
 }
-#Contact{
-  padding: 15px;
-  width: auto;
-  margin-left: 28px;
- 
 
-}
-#mainheading{
-font-weight: bolder;
-font-size: 3rem;
-padding-bottom: 4rem;
+#mainheading {
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-bottom: 4rem;
   text-align: center;
- font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-@media screen and (max-width: 600px) {
-  #mainheading{
-    font-size: 30px;
-    font-weight: bold;
-    width: auto;
-  }
-}
-.main-heading{
-  font-size:30px;
+
+.main-heading {
+  font-size: 30px;
   font-weight: bolder;
   position: relative;
   text-align: justify;
   width: 90%;
 }
-@media screen and (max-width: 600px) {
-.main-heading{
-  font-size: 18px;
-  width: 100%;
-}
 
-}
 #underline {
   width: 11rem;
   height: 0.15rem;
   background: var(--clr-black);
   margin-left: auto;
   margin-right: auto;
- margin-bottom: 2rem;
- margin-top: -3.5rem;
+  margin-bottom: 2rem;
+  margin-top: -3.5rem;
 }
-@media screen and (max-width: 600px) {
-  #underline{
-  width: 8rem;
-  height: .1rem;
+
+/* mobile-css */
+@media screen and (max-width: 480px) {
+  .video {
+    width: 100%;
   }
 }
 
+/* tablet-css */
+@media screen and (max-width: 600px) {
+  .contact-rightside form .main-hero-para {
+    font-size: 14px;
+  }
+
+  #mainheading {
+    font-size: 30px;
+    font-weight: bold;
+    width: auto;
+  }
+
+  .main-heading {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #underline {
+    width: 8rem;
+    height: .1rem;
+  }
+}

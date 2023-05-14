@@ -1,22 +1,22 @@
 import React from 'react'
 import Header from "./Header"
+import {Container} from "react-bootstrap"
 import About1 from "../../Images/About1.jpg"
 import shriRadhakrishna from "../../Images/shriRadhakrishna.jpg"
 import water from "../../Images/water.jpg"
 import mandirDeco from "../../Images/mandirDeco.jpg"
 import ShriRamTempleBrick from "../../Images/ShriRamTempleBrick.jpg"
 import "./Donate.css"
+import SubHeader from "../../SubHeader"
 function Patron() {
   return (
     <>
     <div className='Patron_header' style={{marginTop:"4rem"}}>
     <Header/>
     </div>
-<div className="patron-header">
-     <p style={{color:"white",paddingTop:"15px",paddingLeft:"1rem",fontSize:"1.5rem",fontWeight:"bold"}}>
-      Become a Life Time Patron
-      </p>
-     </div>
+    <div>
+      <SubHeader/>
+    </div>
 <div className="container" style={{display:"flex",justifyContent:"center",alignItems:"center",}}>
     <div className="row " style={{display:"flex",justifyContent:"center",alignItems:"center",}}>
 

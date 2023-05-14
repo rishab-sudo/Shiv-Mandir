@@ -41,7 +41,7 @@ function Signup() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{background:require("../../Images/login22.jpg")}}>
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Signup..</h1>
 

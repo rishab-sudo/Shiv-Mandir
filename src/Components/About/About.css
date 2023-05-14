@@ -1,21 +1,32 @@
 #About{
-  margin-top: 6.2rem;
+  margin-top: 1rem;
   
 }
 .img1{
     height: auto;
     padding: 5px;
+    margin: 0;
 
 } 
 .card-header{
   text-align: center;
  font-weight: bolder;
-  background-color: lightgrey;
+background-color: #ad4956;
+color: aliceblue;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }  
 
   
 /* icons */
+.social_container_head{
+  background-color: #ad4956;
+  height: 2rem;
+  margin-top: -15px;
+  font-size: 1.2rem;
+  font-family: intern;
+  color: aliceblue;
+  text-decoration:underline;
+}
 .icon{
   padding: 2px;
   text-align: center;
@@ -61,7 +72,7 @@ a.email{
   padding: 5px;
 }
 
-/* followus  */
+/* follow-us  */
  .MainText{ 
   text-align: center;
   font-size: large;
@@ -69,11 +80,6 @@ a.email{
   font-size: x-large;
   color: #ad4956;
 }
-.h3{
-  text-align: center;
-  color: #ad4956;
-  text-decoration: underline;
-  }
 /* card-tyming */
 .tyming{
   text-align: center;
@@ -85,8 +91,8 @@ a.email{
   color: darkgray;
 }
 .darshan_btn{
-  background-color: #ad4956e6;
-  color: white;
+  background-color: #ad4956;
+ color: white;
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -101,47 +107,40 @@ a.email{
 }
 /* Daily Page  */
 .Daily{
- margin-top: 70px;
+ margin-top: 100px;
  text-align: center;
  
 }
-#donate-header{
-  text-align: center;
-  height: 3rem;
-  width: auto;
-  background-color: #ad4956e6;
-  margin-bottom: .1rem;
-  font-size: 1.7rem;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  
+
+.daily_img{
+  width: 90%;
+}
+.daily_caption{
+width: 100%;
+width: 105ch;
+margin: auto;
+font-size: 1rem;
+font-family: intern;
+color: #000;
 }
 .fa-solid {
   float: left;
   margin-top: .5rem;
-  margin-left: .5rem;
+  margin-left: 5.5rem;
 color: floralwhite;
  }
 
-.artitext{
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  text-overflow: clip;
-  border: none;
-  color: aliceblue;
-  background-color: #ad4956;
- text-decoration: wavy;
-}
 .daily_artibtn{
   background-color: #ad4956e6;
   color: white;
-  width: auto;
+  width: 90%;
   outline: brown;
   font-size: large;
  border: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.daily_artibtn:hover{
+  background-color: #ad4973d9;
 }
 
 

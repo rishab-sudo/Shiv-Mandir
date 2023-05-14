@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
     "bootstrap": "^5.0.1",
     "emailjs-com": "^3.2.0",
     "firebase": "^9.15.0",
@@ -21,8 +22,11 @@
     "react-moving-text": "^0.0.7",
     "react-read-more-less": "^0.1.6",
     "react-read-more-read-less": "^1.0.7",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

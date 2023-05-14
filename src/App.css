@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cardImg {
+  height: 250px;
+}
+.patron-SubHeader_div {
+background-color: #ad4956;
+  height: 3.5rem;
+  width: 95%;
+text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2rem;
+
+}
+.bck_icon{
+  float: left;
+  margin-left: 20px;
+}

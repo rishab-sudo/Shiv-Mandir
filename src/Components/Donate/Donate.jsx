@@ -1,12 +1,10 @@
 import React from 'react'
-import {Row,Col,Container} from "react-bootstrap"
+import { Row, Col, Container } from "react-bootstrap"
 import Header from "./Header"
 import "./Donate.css"
 import Sidebar from './Sidebar'
-import Patron from "./Patron"
-import ShriRamTempleBrick from "../../Images/ShriRamTempleBrick.jpg"
-import prashadSeva from "../../Images/prashadSeva.jpg"
 import DoSeva from "../../Images/GoSeva.jpg"
+import DharmaSeva from "../../Images/DharmaSeva.png"
 
 const Donate = () => {
 
@@ -18,8 +16,8 @@ const Donate = () => {
         <Row>
           <Col lg={'3'} md={'6'} xs={'2'} >
             <Sidebar />
-            </Col>
-          
+          </Col>
+
 
           <Col lg={9} md={6} className="crousel_col">
             <div className="donate_crousel">
@@ -66,61 +64,69 @@ const Donate = () => {
         </Row>
 
       </Container>
+      <Container donate text>
+        <p className='donate_text'>
+      <span style={{fontWeight:"bold"}}> Your contribution can help us continue our mission of spreading the message of love, peace, and unity.</span><br/>
+          Your donation will help us in various ways, such as providing meals to the needy, supporting education
+          and healthcare initiatives, organizing cultural events, and maintaining the temple's infrastructure.<br/>
+          We appreciate any amount of donation that you can contribute, as every bit helps us in our mission.
+          You can make a one-time donation or become a regular donor by setting up a recurring donation.
+          To make a donation, please fill out the form below with your details and the donation amount.
+          You can make a payment using a credit card, debit card, or PayPal.<br/>
+          Thank you for your generosity and support. May the blessings of the divine be with you always.
+        </p>
+      </Container>
       {/* donate-cards */}
       <Container >
-      <Row>
-     <Col lg={12} md={12} xs={'12'}>
-      <div className='donate_card_div'>
-    <div className='card' type="button" id="donate_card">
-        <div className='card_text img-fluid' style={{backgroundImage: `url(${DoSeva})`,borderRadius:"50%",height:"75px",width:"75px",marginLeft:"auto",marginTop:"10px",}}>
-          <p style={{marginLeft:"-190px",fontSize:"1.5rem",color:"white",marginTop:"20px"}}>Go Seva</p>
-        </div>
-      </div>
-   
-    
-    
-    <div className='card' type="button" id="donate_card">
-        <div className='card_text' style={{backgroundImage: `url(${DoSeva})`,borderRadius:"50%",height:"75px",width:"75px",marginLeft:"auto",marginTop:"10px"}}>
-          <p style={{marginLeft:"-190px",fontSize:"1.5rem",color:"white",marginTop:"20px"}}>Go Seva</p>
-        </div>
-      </div>
-   
-    
-   
-    <div className='card' type="button" id="donate_card">
-        <div className='card_text' style={{backgroundImage: `url(${DoSeva})`,borderRadius:"50%",height:"75px",width:"75px",marginLeft:"auto",marginTop:"10px"}}>
-          <p style={{marginLeft:"-190px",fontSize:"1.5rem",color:"white",marginTop:"20px"}}>Go Seva</p>
-        </div>
-      </div>
-   
-    
+        <Row>
+          <Col lg={12} md={12} xs={'12'}>
 
-    <div className='card' type="button" id="donate_card">
-        <div className='card_text' style={{backgroundImage: `url(${DoSeva})`,borderRadius:"50%",height:"75px",width:"75px",marginLeft:"auto",marginTop:"10px"}}>
-          <p style={{marginLeft:"-190px",fontSize:"1.5rem",color:"white",marginTop:"20px"}}>Go Seva</p>
-        </div>
-      </div>
-      </div>
-    </Col>
-    </Row>
-</Container>
+            <div className='donate_card_div'>
+              <div className='donate_card' type="button" id="">
+                <p className='card_txt'>Dharma Seva</p>
+                <img className="card_img" src={require("../../Images/DharmaSeva.png")} />
+              </div>
+
+
+
+              <div className='donate_card' type="button" id="">
+                <p className='card_txt'>Dharma Seva</p>
+                <img className="card_img" src={require("../../Images/DharmaSeva.png")} />
+              </div>
+
+
+
+              <div className='donate_card' type="button" id="">
+                <p className='card_txt'>Dharma Seva</p>
+                <img className="card_img" src={require("../../Images/DharmaSeva.png")} />
+              </div>
+
+              <div className='donate_card' type="button" id="">
+                <p className='card_txt'>Dharma Seva</p>
+                <img className="card_img" src={require("../../Images/DharmaSeva.png")} />
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
      
+
 
     </div>//mainid
 
-)
+  )
 }
 
 export default Donate
-        
 
 
 
-     
-    
-          
 
-    
+
+
+
+
+
 
 
 

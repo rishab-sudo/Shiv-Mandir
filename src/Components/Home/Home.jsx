@@ -17,11 +17,11 @@ const Home = (props) => {
     <>
       {/* <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2> */}
       <section id="Home">
-        <Container>
+        <Container fluid className="g-5">
           <Row>
-            <Link to="/Donate">
+          
               <Crousel/>   
-            </Link>
+          
           </Row>
         </Container>
 

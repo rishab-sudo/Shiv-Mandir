@@ -6,16 +6,15 @@ import img1 from "../../Images/img1.jpg"
 import ShriRamTempleBrick from "../../Images/ShriRamTempleBrick.jpg"
 import Header from "./Header"
 import "./Donate.css"
+import SubHeader from "../../SubHeader"
 const General = () => {
   return (
     <>
      <div className='General_header' style={{marginTop:"4rem"}}>
     <Header/>
     </div>
-    <div className="General-header">
-     <p style={{color:"white",paddingTop:"15px",paddingLeft:"1rem",fontSize:"1.5rem",fontWeight:"bold"}}>
-      General Donation
-      </p>
+    <div className="">
+    <SubHeader/>
      </div>
     
      <div class="container">

@@ -7,14 +7,20 @@ const Header = () => {
   return (
     <>
       <header className="top_header">
-    <Container>
-        <div style={{display:"flex"}}>
-     <h2  className='top_header_heading'>Donate -</h2>
+    <Container fluid>
+      <div className='header_main_div'>
+    <div>
+     <h2  className='top_header_heading'>Donate -
      <FaAngleDoubleRight className='arrow_icon'/>
+     </h2>
      </div>
-        <div style={{display:"flex",justifyContent:"flex-end",marginTop:"-45px"}}>
+        <p className='top_header_subHeading'>
+          Welcome to the Shri Mandir donation page. 
+         </p>
+        <div style={{display:"flex"}}>
           <FaShoppingCart className="cartIcon" />
-          <p style={{ color: "white", fontSize: "1.2rem",}}>Seva Cart</p>
+          <p className='cart_text'>Seva Cart</p>
+        </div>
         </div>
       </Container>
       </header>

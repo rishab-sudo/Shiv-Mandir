@@ -1,13 +1,17 @@
 import React from 'react';
 // import ReactReadMoreReadLess from "react-read-more-read-less";
 import ReadMoreAndLess from 'react-read-more-less';
-
 import MovingText from 'react-moving-text'
 import "./Event.css"
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import MyVerticallyCenteredModal from "../Modal/Modal"
 
 
 
 function Menu({ items }) {
+const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <div className='section-center'>
       {items.map((menuItem) => {
@@ -31,19 +35,18 @@ function Menu({ items }) {
               </ReadMoreAndLess>
             </p>
 
-            <button type='button' id='sponsorbtn'>
-              <MovingText
-                type="glowing"
-                duration="8s"
-                delay="1s"
-                iteration="infinite"
-                fillMode="none">
-                Sponsor
-              </MovingText>
-            </button>
-
+      <Button variant="primary" id='sponsorbtn' onClick={() => setModalShow(true)}>       
+      Sponsor
+      </Button>
+      <MyVerticallyCenteredModal
+         show={modalShow}
+         onHide={() => setModalShow(false)}
+      />
+     
           </div>
         </article>
+
+
 
 
       })}
