@@ -53,7 +53,7 @@ const Contact = () => {
                   <video controls alt="contatUsImg"
                     className="img-fluid video" >
 
-                    <source src={Video}  type="video/mp4" />
+                    <source src={Video} type="video/mp4" />
                   </video>
                 </div>
 

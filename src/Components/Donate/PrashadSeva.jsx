@@ -1,13 +1,10 @@
 import React from 'react'
-import water from "../../Images/water.jpg"
-import mandirDeco from "../../Images/mandirDeco.jpg"
-import ShriRamTempleBrick from "../../Images/ShriRamTempleBrick.jpg"
-import prashadSeva from "../../Images/prashadSeva.jpg"
-import Bhog from "../../Images/56Bhog.jpg"
-import tulsiArchana from "../../Images/tulsiArchana.jpg"
 import Header from "./Header"
 import "./Donate.css"
 import SubHeader from "../../SubHeader"
+import Cards from "../Cards/Cards"
+import CardData from "../Cards/CardData"
+import {Container,Row,Col} from "react-bootstrap"
 
 const Prashad = () => {
   return (
@@ -18,50 +15,29 @@ const Prashad = () => {
     <div>
       <SubHeader/>
     </div>
- <div className="Prashad_Donation_container" style={{marginTop:"5rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
-   <div className="row align-items-center">
+    <Container className='main_container'>
+  <Row> 
+    <Col lg={3} md={3} sm={12} className='donate_subpage_cols'>
+    <div className="patron_card1_img" style={{width: "18.5rem"}}>
+  <img src={require("../../Images/prashadSeva.jpg")} class="card-img-top" alt="..." id="cardImg" style={{height:"28rem",}}/>
+  </div>
+    </Col>
    
-   <div class="col">
-    <div className="card-1st" style={{width: "18rem",marginTop:"-3.5rem",marginBottom:"6rem",}}>
-  <img src={prashadSeva} class="card-img-top" alt="..." id="cardImg" style={{height:"28rem"}}/>
-  </div>
-    </div>
+    <Col lg={3} md={3} sm={12} className='donate_subpage_cols'>
+    <Cards img={CardData[6].img} title={CardData[6].title} text={CardData[6].text} btn={CardData[6].btn}  />
+    </Col>
 
-    <div className="col">
-    <div className="card" style={{width: "17rem",marginTop:"-3.5rem",marginBottom:"6rem"}}>
-  <img src={prashadSeva} class="card-img-top" alt="..." id="cardImg"/>
-  <div className="card-body">
-    <h5 className="card-title">Rajbhog Seva</h5>
-    <p className="card-text">Includes Temple Construction related work & Maintinance & Maintinance.</p>
-    <a href="#" className="btn btn-primary" style={{backgroundColor:"#ad4956"}}>view Seva</a>
-  </div>
-</div>
-    </div>
+    <Col lg={3} md={3} sm={12} className='donate_subpage_cols'>
+    <Cards img={CardData[7].img} title={CardData[7].title} text={CardData[7].text} btn={CardData[7].btn}  />
+    </Col>
+   
+    <Col lg={3} md={3} sm={12} className='donate_subpage_cols'>
+    <Cards img={CardData[7].img} title={CardData[8].title} text={CardData[8].text} btn={CardData[8].btn}  />
+    </Col>
+  </Row>
+</Container>
 
-    <div className="col">
-    <div className="card" style={{width: "17rem",marginTop:"-3.5rem",marginBottom:"6rem"}}>
-  <img src={Bhog} class="card-img-top" alt="..." id="cardImg"/>
-  <div className="card-body">
-    <h5 className="card-title">56 bhog Seva</h5>
-    <p className="card-text">Includes the, Proper Water Supply in the Temple & Maintinance.</p>
-    <a href="#" className="btn btn-primary" style={{backgroundColor:"#ad4956"}}>view Seva</a>
-  </div>
-</div>
-    </div>
-
-    <div className="col">
-    <div className="card" style={{width: "17rem",marginTop:"-3.5rem",marginBottom:"6rem"}}>
-  <img src={tulsiArchana} class="card-img-top" alt="..." id="cardImg"/>
-  <div className="card-body">
-    <h5 className="card-title">Shri Tulasi Archana Seva</h5>
-    <p className="card-text">Includes the, Proper Power Supply in the Temple & Maintinance. </p>
-    <a href="#" className="btn btn-primary" style={{backgroundColor:"#ad4956"}}>view Seva</a>
-  </div>
-</div>
-    </div>
-  </div>
-
-  </div>
+ 
     </>
   )
 }

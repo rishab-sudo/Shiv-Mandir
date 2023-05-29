@@ -15,14 +15,7 @@ const menu = [
       img:  "../../Images/About2.jpg",
       desc: `Named because it's made with a pound of each of the main ingredients (flour, butter, and sugar), this cake doesn’t rise much while baking, and the texture is very dense.`,
     },
-    // {
-    //   id: 3,
-    //   title: 'Red Velvet Cake',
-    //   category: 'Program',
-    //   price: 699,
-    //   img: './images/item-3.jpg',
-    //   desc: `This is a true favorite, especially in the south. Made with either butter or oil, red velvet cake's color classically comes from the reaction of buttermilk and cocoa powder..`,
-    // },
+  
     {
       id: 4,
       title: 'Sri Brahmotsava – April 14 – 25, 2022',

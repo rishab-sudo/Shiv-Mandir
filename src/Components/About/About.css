@@ -1,51 +1,69 @@
-#About{
+#About {
   margin-top: 1rem;
-  
+
 }
-.img1{
-    height: auto;
-    padding: 5px;
-    margin: 0;
 
-} 
-.card-header{
+.img1 {
+  height: auto;
+  padding: 5px;
+  margin: 0;
+
+}
+
+.MainText {
   text-align: center;
- font-weight: bolder;
-background-color: #ad4956;
-color: aliceblue;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}  
+  font-size: large;
+  font-weight: bold;
+  font-size: x-large;
+  color: #ad4956;
+}
 
-  
-/* icons */
-.social_container_head{
+.card-header {
+  text-align: center;
+  font-weight: bolder;
+  /* background-color: #ad4949; */
   background-color: #ad4956;
-  height: 2rem;
-  margin-top: -15px;
-  font-size: 1.2rem;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* icons */
+.social_container {
+  max-width: 18.5rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.social_container_head {
+  background-color: #ad4956;
+  height: 3.5rem;
+  max-width: 18.5rem;
+  margin-top: -15.45px;
+  padding-top: 2px;
+  font-size: 1.5rem;
   font-family: intern;
   color: aliceblue;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-.icon{
-  padding: 2px;
-  text-align: center;
-  width: auto;
-}
- 
-.social_container {
-margin-top: 0;
-height: auto;
 
+.icon {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  max-width: 18.5rem;
 }
+
 a.social {
   margin: .5rem;
   transition: transform 250ms;
   display: inline-block;
 }
+
 a.social:hover {
   transform: translateY(-2px);
 }
+
 a.youtube {
   color: #eb3223;
 }
@@ -61,96 +79,79 @@ a.twitter {
 a.instagram {
   color: maroon;
 }
-a.whatsapp{
+
+a.whatsapp {
   color: darkgreen;
 }
-a.email{
+
+a.email {
   color: brown;
 }
-.text{
+
+.text {
   text-align: justify;
   padding: 5px;
 }
 
-/* follow-us  */
- .MainText{ 
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  font-size: x-large;
-  color: #ad4956;
-}
+
 /* card-tyming */
-.tyming{
+.tyming {
   text-align: center;
   font-size: large;
   font-weight: bold;
 }
+
 /* readmore-text */
-.readMoreText{
+.readMoreText {
   color: darkgray;
 }
-.darshan_btn{
-  background-color: #ad4956;
- color: white;
-  font-size: large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
- }
-.arti_btn{
+.arti_btn {
   margin-top: -15px;
-  background-color: #ad4956e6;
+  background-color: #ad4956;
   color: white;
   width: auto;
   outline: brown;
   font-size: large;
- font-family: Georgia, 'Times New Roman', Times, serif;
-}
-/* Daily Page  */
-.Daily{
- margin-top: 100px;
- text-align: center;
- 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.daily_img{
+/* Daily Page  */
+.Daily {
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.daily_img {
   width: 90%;
 }
-.daily_caption{
-width: 100%;
-width: 105ch;
-margin: auto;
-font-size: 1rem;
-font-family: intern;
-color: #000;
+
+.daily_caption {
+  width: 100%;
+  width: 105ch;
+  margin: auto;
+  font-size: 1rem;
+  font-family: intern;
+  color: #000;
 }
+
 .fa-solid {
   float: left;
   margin-top: .5rem;
   margin-left: 5.5rem;
-color: floralwhite;
- }
+  color: floralwhite;
+}
 
-.daily_artibtn{
-  background-color: #ad4956e6;
+.daily_artibtn {
+  background-color: #ad4956;
   color: white;
   width: 90%;
   outline: brown;
   font-size: large;
- border: none;
+  border: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.daily_artibtn:hover{
-  background-color: #ad4973d9;
+
+.daily_artibtn:hover {
+  background-color: #ad4956;
 }
-
-
-
-
-
-
- 
-  
-
-
-
-

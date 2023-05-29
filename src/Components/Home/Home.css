@@ -1,48 +1,50 @@
-#Home{
-margin-top: 76px;
+#Home {
+  margin-top: 76px;
 }
-.crouselImg{
- height: 90vh;
- width: 100%;
+
+.crouselImg {
+  height: 90vh;
+  width: 100%;
 }
-.donatecarousel{
+
+.donatecarousel {
   margin-top: 4.5rem;
   height: 100%;
   width: 100%;
-  
+
 }
-.sponsor_Btn{
-  margin-bottom:35px; 
+
+.sponsor_Btn {
+  margin-bottom: 35px;
   width: 120px;
-background-color: #ad4956e6;
-color: aliceblue;
+  background-color: #ad4956;
+  color: aliceblue;
   border: none;
   border-radius: 10px;
   padding: 5px;
   font-size: 1.5rem;
   font-weight: bold;
-font-family: internal;
+  font-family: internal;
 }
+
 /* mobile-css */
 @media screen and (max-width: 480px) {
   .crouselImg {
-width: 100%;
-height: 100%;
-}
-.sponsor_Btn{
- margin-bottom:2px; 
+    width: 100%;
+    height: 100%;
+  }
 
+  .sponsor_Btn {
+    margin-bottom: 2px;
+
+  }
 }
-}
+
 /* tablet-css */
 @media screen and (max-width: 768px) {
   .crouselImg {
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 
-    }
+  }
 }
-
-
-
-

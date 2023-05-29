@@ -69,6 +69,6 @@ export const textWhite = styled.textwhite`
 
 
 `;
-export const text= styled.text`
+export const text = styled.text`
 color:white;
 `

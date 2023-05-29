@@ -6,7 +6,7 @@ import "./App.css"
 const SubHeader = () => {
 
   return (
-    <Container style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+    <Container fluid  className='g-0 ' style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
         <div  className="patron-SubHeader_div">
         <div className='bck_icon mt-1'>
         <FaArrowAltCircleLeft onClick={''}/>

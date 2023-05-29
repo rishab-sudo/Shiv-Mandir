@@ -1,0 +1,13 @@
+.Card_btn{
+background-color: #ad4956;
+color: aliceblue;
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Card_btn:hover{
+    color: #fff;
+}
+/* .card_img{
+  max-height: 17rem;
+  min-width: 18.5rem;
+} */

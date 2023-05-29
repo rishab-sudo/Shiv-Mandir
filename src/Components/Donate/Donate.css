@@ -79,6 +79,7 @@ main {
   color: aliceblue;
   font-family: intern;
   font-weight: bold;
+  /* background-color: rgba(0, 0, 0, 0.314); */
 }
 
 .arrow_icon {
@@ -164,44 +165,50 @@ main {
 .card-1 {
   margin-left: 2.1rem;
 }
-
+/* patron general etc  */
+.main_container{
+  margin-bottom: 2rem;
+}
 
 /* mobile-css */
 @media screen and (max-width: 480px) {
   .top_header_heading {
     font-size: 18px;
   }
+
   .top_header_subHeading {
-  display: none;
-}
-.arrow_icon {
-  font-size: 18px;
-  color: aliceblue;
-}
-.card_txt {
-  font-size: 18px;
-}
-.sidebar {
-display: none;
-}
-.crousel_col {
     display: none;
   }
-.cartIcon {
+
+  .arrow_icon {
+    font-size: 18px;
+    color: aliceblue;
+  }
+
+  .card_txt {
+    font-size: 18px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .crousel_col {}
+
+  .cartIcon {
     margin-top: 0px;
     height: 30px;
     width: 30px;
   }
-.donate_card_div {
+
+  .donate_card_div {
     display: flex;
     flex-direction: column;
- justify-content: center;
- align-items: center;
+    justify-content: center;
+    align-items: center;
   }
 
 }
 
 /* tablet-css */
-@media screen and (max-width: 760px) {
-
-}
+@media screen and (max-width: 760px) {}

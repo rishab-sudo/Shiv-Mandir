@@ -8,7 +8,7 @@ import "./Navbar.css"
 
 function BasicExample() {
   return (
-    <Navbar  expand="lg" fixed="top"id="navbar">
+    <Navbar expand="lg" fixed="top" id="navbar">
       <Container fluid className='nav_container'>
         <img src={logo} width={50} height={45} />
         <Navbar.Brand id="link" href="#home" className="navbar-brand fw-bold fs-4">SHIV-TEMPLE

@@ -1,9 +1,8 @@
 import React from 'react'
-import water from "../../Images/water.jpg"
-import mandirDeco from "../../Images/mandirDeco.jpg"
-import Arti from "../../Images/Arti.jpg"
+import {Container,Row,Col} from "react-bootstrap"
+import Cards from "../Cards/Cards"
+import CardData from "../Cards/CardData"
 import img1 from "../../Images/img1.jpg"
-import ShriRamTempleBrick from "../../Images/ShriRamTempleBrick.jpg"
 import Header from "./Header"
 import "./Donate.css"
 import SubHeader from "../../SubHeader"
@@ -17,37 +16,23 @@ const General = () => {
     <SubHeader/>
      </div>
     
-     <div class="container">
-  <div class="row">
-    <div class="col">
-    <div className="card-1" style={{width: "17rem"}}>
-  <img src={img1} class="card-img-top" alt="..." id="cardImg" style={{height:"28rem"}}/>
+     <Container className='main_container'>
+  <Row>
+  <Col lg={4} md={4} sm={12} className='donate_subpage_cols'>
+    <div className="patron_card1_img" style={{width: "17.5rem"}}>
+  <img src={img1} class="card-img-top" alt="..." id="cardImg" style={{height:"28.5rem"}}/>
   </div>
-    </div>
+    </Col>
    
-    <div class="col">
-    <div className="card" style={{width: "17rem"}}>
-  <img src={Arti} class="card-img-top" alt="..." id="cardImg"/>
-  <div className="card-body">
-    <h5 className="card-title">Temple Arti Seva</h5>
-    <p className="card-text">Includes Temple Construction, Renovation related work & Maintinance.</p>
-    <a href="#" className="btn btn-primary" style={{backgroundColor:"#ad4956"}}>view Seva</a>
-  </div>
-</div>
-    </div>
+    <Col lg={4} md={4} sm={12} className='donate_subpage_cols'>
+    <Cards img={CardData[4].img} title={CardData[4].title} text={CardData[4].text} btn={CardData[4].btn}  />
+    </Col>
    
-    <div class="col">
-    <div className="card" style={{width: "17rem"}}>
-  <img src={img1} class="card-img-top" alt="..." id="cardImg"/>
-  <div className="card-body">
-    <h5 className="card-title">Shringar Seva</h5>
-    <p className="card-text">Includes the, Proper Water Supply in the Temple & Maintinance.</p>
-    <a href="#" className="btn btn-primary" style={{backgroundColor:"#ad4956"}}>view Seva</a>
-  </div>
-</div>
-    </div>
-  </div>
-</div>
+    <Col lg={4} md={4} sm={12} className='donate_subpage_cols'>
+    <Cards img={CardData[4].img} title={CardData[4].title} text={CardData[4].text} btn={CardData[4].btn}  />
+    </Col>
+  </Row>
+</Container>
 
 
 

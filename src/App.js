@@ -16,7 +16,7 @@ import Patron from "./Components/Donate/Patron"
 import General from "./Components/Donate/General"
 import FestivalDonation from "./Components/Donate/FestivalDonation"
 import PrashadSeva from "./Components/Donate/PrashadSeva.jsx"
-import ArtiSeva from "./Components/Donate/ArtiSeva"
+// import ArtiSeva from "./Components/Donate/ArtiSeva"
 import {  Routes, Route} from "react-router-dom"
 import { auth } from "./firebase";
 
@@ -52,7 +52,7 @@ export default function App() {
           <Route path="/General" element={<General/>}/>
           <Route path="/FestivalDonation" element={<FestivalDonation/>}/>
           <Route path="/PrashadSeva" element={<PrashadSeva/>}/>
-          <Route path="/ArtiSeva" element={<ArtiSeva/>}/>
+          {/* <Route path="/ArtiSeva" element={<ArtiSeva/>}/> */}
         </Routes>
 
     </>

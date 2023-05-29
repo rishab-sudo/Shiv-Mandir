@@ -56,13 +56,13 @@ function Login() {
       });
   };
   return (
-    <div     style={{ backgroundImage: `url(${login22})`,
-    backgroundRepeat:"no-repeat",
-    backgroundPosition:"cover",
-    height:'100vh',
-    minWidth:"100vw",
-    }}>
     <section id="Login" className="" >
+      <div     style={{ backgroundImage: `url(${login22})`,
+      backgroundRepeat:"no-repeat",
+      backgroundPosition:"center",
+      height:'100vh',
+      width:"100vw",
+      }}>
 
       <div className={styles.Logincontainer} >
         <div className={styles.innerBox}>
@@ -98,8 +98,8 @@ function Login() {
           </div>
         </div>
       </div>
-    </section>
     </div>
+    </section>
   );
 }
 
